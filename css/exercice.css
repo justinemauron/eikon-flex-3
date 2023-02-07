@@ -11,12 +11,25 @@
   flex-direction: row;
 }
 
-.element-blue {
+.exercice-order-1 .element-blue {
   order: 1;
 }
 
 /* 3. exercice-order-2 */
 
+.exercice-order-2 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.element-yellow {
+  order: -1;
+}
+
+.exercice-order-2 .element-gray {
+  order: 1;
+}
 
 /* 4. exercice-order-3 */
 
