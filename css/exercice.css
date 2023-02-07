@@ -84,6 +84,29 @@
 
 /* 8. exercice-all-in-2 */
 
+.exercice-all-in-2 .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.exercice-all-in-2 .element-red {
+  order: 1;
+}
+
+.exercice-all-in-2 .element-green {
+  order: 2;
+}
+
+.exercice-all-in-2 .element-pink {
+  order: 3;
+  align-self: flex-start;
+}
+
+.exercice-all-in-2 .element-blue {
+  order: 4;
+}
 
 /* 8. exercice-margin-auto */
 
